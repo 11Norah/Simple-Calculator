@@ -1,0 +1,40 @@
+<div>
+  <br>
+  <h1 style="text-align: center;">{{"Calculator"}}</h1>
+  <div class=' maindisplay '>
+  <div class='subdisplay '>
+    {{x}}
+    </div>
+    {{b}}
+  </div>
+  <div class="numkeys button">
+    <button class="opkey"  (click)="display('%')">%</button>
+    <button class="opkey"(click)="clearall()"> CE</button>
+    <button class="opkey"(click)="clearall()"> C</button>
+    <button class="opkey" (click)="delete()"><img 
+       src="https://image.shutterstock.com/z/stock-vector-delete-backspace-keyboard-key-line-art-vector-icon-for-apps-and-websites-273565205.jpg"
+        height ="40px"  width="80px"  > </button>
+    <button class="opkey" (click)="display('1/')">1/x</button>
+    <button class="opkey"(click)="display('^2')"> x<span>&#178;</span></button>
+    <button class="opkey" (click)="display('&#8730;')"> <span>&#8730;</span>x</button>
+    <button class="opkey" (click)="display('/')"> &#247;</button>  
+    <button (click)="display('7')"> 7</button>
+    <button (click)="display('8')">8</button>
+    <button (click)="display('9')"> 9</button>
+    <button class="opkey" (click)="display('&#215;')"> &#215;</button> 
+    <button (click)="display('4')">4</button>
+    <button (click)="display('5')">5</button>
+    <button (click)="display('6')"> 6</button>
+    <button class="opkey" (click)="display('-')"> -</button>
+    <button  (click)="display('1')">1</button>
+    <button (click)="display('2')"> 2</button>
+    <button (click)="display('3')"> 3</button>
+    <button  class="opkey" (click)="display('+')"> +</button>
+    <button (click)="display('(-')"> +/-</button>
+    <button (click)="display('0')"> 0</button>
+    <button  (click)="display('.')"> .</button>
+        
+    <button class = 'equalkey' (click)="get_answer('')"> =</button>
+  </div>
+  
+</div>

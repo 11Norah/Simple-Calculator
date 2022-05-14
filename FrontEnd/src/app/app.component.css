@@ -1,0 +1,50 @@
+
+.subdisplay {
+    border-bottom: 1px solid black;
+    height: 25%;
+    width: 9cm;
+    font-size: 3rem;
+    overflow: auto;
+    margin: auto;
+}
+
+.maindisplay {
+    background: lightgrey;
+    height: 35%;
+    width: 9cm;
+    padding: 5% !important;
+    font-size: 5rem;
+    text-align: right;
+    font-family: Courier, monospace;
+    overflow: auto;
+    margin: auto;
+}
+.numkeys {
+    grid-template-columns: repeat(4, 1fr);
+    border: 5px solid black;
+    display :grid;
+    width: 80px;
+    grid-gap: 10px;
+    padding: 20px;
+    margin: auto;
+    background-color: lightgrey;
+    
+}
+.button{
+    
+    text-align: center;
+    margin: center;
+    height: 400px;
+    width:10cm;
+    padding: 2%;
+    font-size: 70rem;
+    font-style: italic;
+    background-color: lightgray; 
+}
+.opkey{
+    background-color: darkgray; 
+}
+.equalkey {
+    color: white;
+    background-color: orangered; 
+}
